@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Graphik", Helvetica, Arial, sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 .navigation {
   height: 13vh;
@@ -29,17 +29,17 @@ body {
   border: none;
   background: none;
   color: white;
-  font-size: 18px;
-  margin-top: 2rem;
-  margin-right: 2rem;
+  font-size: 14px;
+  margin-top: 2.2rem;
+  margin-right: 1.5rem;
   list-style-type: none;
 }
 
 .nav_link {
   text-decoration: none;
   color: white;
-  padding-right: 1rem;
-  font-weight: bold;
+  padding-right: 1.9rem;
+  font-weight: bolder;
 }
 .nav_link:hover {
   color: lightgrey;
@@ -48,34 +48,36 @@ body {
   text-align: center;
   margin: 0 auto;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  font-size: 12px;
 }
 .header {
   max-width: 1100px;
   margin: 0 auto;
   overflow: hidden;
   padding: 0 2rem;
-  margin-top: 4.3rem;
+  margin-top: 3.5rem;
   font-weight: bold;
 }
 #promo {
   color: #23bd9d;
 }
 .logo {
-  height: 450px;
-  width: 500px;
+  height: 400px;
+  width: 450px;
   margin: 0 auto;
-  margin-top: -4rem;
+  margin-top: -5rem;
 }
 
 .more_promo {
   text-align: center;
   color: white;
-  font-size: 26px;
+  font-size: 23px;
   font-weight: bold;
   width: 920px;
   margin: 0 auto;
   margin-top: -14rem;
+  letter-spacing: 1px;
 }
 .addons {
   text-align: center;
@@ -83,7 +85,8 @@ body {
   margin-top: 2.5rem;
   margin-bottom: 2rem;
   font-weight: lighter;
-  font-size: 19px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 .trial_button {
   margin-top: 1.5rem;
@@ -97,7 +100,7 @@ body {
   padding: 0;
   font-weight: 900;
   padding: 1.5rem 3rem;
-  font-size: 18px;
+  font-size: 14px;
   border-radius: 5px;
   text-align: center;
   margin: 0 auto;
@@ -131,7 +134,6 @@ body {
   max-width: 400px;
   vertical-align: center;
   padding: 2rem;
-  margin-left: 4rem;
 }
 .ribbon .row {
   align-items: center;
@@ -141,8 +143,6 @@ body {
 }
 .row {
   display: flex;
-  margin-right: 15px;
-  margin-left: 15px;
   flex-wrap: flex;
 }
 
@@ -156,7 +156,7 @@ body {
   text-align: left;
 }
 .ribbon-info {
-  padding-left: 2rem;
+  padding-left: 13rem;
 }
 
 .ribbondt {
@@ -166,6 +166,7 @@ body {
 .ribbon-learn {
   margin-top: 1rem;
   text-align: left;
+  text-decoration: underline;
 }
 .bundleButton {
   color: white;
@@ -190,10 +191,10 @@ body {
   padding: 0.75rem;
   color: white;
   font-weight: bold;
-  margin-left: 8rem;
+  margin-left: 13rem;
   font-size: 20px;
   border-radius: 4px;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .ribbon__button {
   display: flex;
@@ -216,20 +217,19 @@ a:link {
   color: white;
   font-size: 12px;
   opacity: 80%;
-  margin-left: 4rem;
+  margin-left: 8rem;
 }
 .media {
   background-color: black;
-  justify-content: center;
   overflow: hidden;
-  margin: 0 auto;
-  width: 100%;
 }
 .media .gallery {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: (7, 1fr);
   padding: 0.5rem;
+  justify-content: center;
 }
+
 img:hover {
   opacity: 80%;
 }
