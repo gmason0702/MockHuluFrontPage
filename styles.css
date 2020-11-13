@@ -214,8 +214,9 @@ a:link {
 }
 .terms {
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 80%;
+  margin-left: 4rem;
 }
 .media {
   background-color: black;
