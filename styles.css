@@ -171,6 +171,7 @@ body {
 .bundleButton {
   color: white;
   border-radius: 4px;
+  border: none;
 }
 /* .ribbon__container {
   display: flex;
@@ -212,6 +213,7 @@ a:link {
   margin-left: 4rem;
   margin-top: 10px;
   text-decoration: underline;
+  margin-top: 0rem;
 }
 .terms {
   color: white;
